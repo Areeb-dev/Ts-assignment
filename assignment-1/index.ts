@@ -2,10 +2,10 @@ interface Todo {
     id: number;
     todo: string;
     completed: boolean;
-    userId: number
+    userId: number;
 }
 
-let API_URL: string = 'https://dummyjson.com/todos'
+let API_URL: string = 'https://dummyjson.com/todos/'
 
 interface ApiResponse {
     users: Todo[]
